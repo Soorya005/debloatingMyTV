@@ -1,0 +1,6 @@
+{
+  "tv": "Thomson Smart TV PATH_7XPRO (SPPL, Amlogic, model PATH_7XPRO, device LEDTV32HD), India",
+  "os": "Android TV 9 (API 28)",
+  "brand": "Thomson",
+  "notes": "Amlogic SoC. SPPL e-manual, partner customizer ads, recommendation feed, Google feedback/bug report, auto-installs, and defunct Google Play Music disabled; YouTube, Hotstar, JioCinema, Prime Video, Sony LIV, TV Browser, and File Manager kept; Assistant, Chromecast, and OTA kept; AdGuard Private DNS enabled; native Apple TV launcher installed with 4 dock slots; reboot persistence verified"
+}

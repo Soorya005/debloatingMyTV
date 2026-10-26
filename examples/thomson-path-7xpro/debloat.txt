@@ -1,0 +1,39 @@
+# Thomson Smart TV PATH_7XPRO (SPPL, Amlogic SoC, model PATH_7XPRO, device LEDTV32HD)
+# Android TV 9 (API 28), build PI.20210601 release-keys.
+#
+# Apply:   powershell -ExecutionPolicy Bypass -File tools\disable.ps1 examples\thomson-path-7xpro\debloat.txt
+# Undo:    powershell -ExecutionPolicy Bypass -File tools\restore.ps1 examples\thomson-path-7xpro\debloat.txt
+#
+# Everything is DISABLED with pm disable-user --user 0, never uninstalled.
+
+# Manufacturer bloatware & auto-installers
+android.autoinstalls.config.amlogic.device
+com.sppl.emanual
+
+# Partner customizer and telemetry
+com.google.android.partnersetup
+com.google.android.tvsetup.partnercustomizer
+com.google.android.feedback
+com.google.android.tv.bugreportsender
+
+# Home screen recommendations & sponsored rows
+com.google.android.tvrecommendations
+com.google.android.leanbacklauncher.recommendations
+com.droidlogic.launcher.provider
+
+# Stock duplicate media players
+com.ctv.music
+com.ctv.photoplayer
+com.droidlogic.videoplayer
+
+# Defunct Google services & unused apps
+com.google.android.music
+com.google.android.play.games
+com.google.android.youtube.tvmusic
+com.google.android.marvin.talkback
+com.android.providers.calendar
+com.android.providers.contacts
+com.android.providers.userdictionary
+com.google.android.syncadapters.calendar
+com.google.android.syncadapters.contacts
+app.cricfy.tv
